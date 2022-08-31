@@ -11,11 +11,12 @@ const Footer = () => {
    <Box
       sx={{
         maxWidth: "1100px",
-        borderTop: "1px solid #7B89A8",
+        borderTop: "1px solid white",
         mx: "auto",
         padding: 3,
         display: "flex",
         justifyContent: "space-around",
+        marginTop: 5
       }}
     >
       <Box
@@ -26,7 +27,7 @@ const Footer = () => {
       >
         <Typography
           variant="body1"
-          sx={{ color: "#7B89A8", fontWeight: "bold", mb: 2 }}
+          sx={{ color: "white", fontWeight: "bold", mb: 2 }}
         >
           PAGES
         </Typography>
@@ -65,13 +66,13 @@ const Footer = () => {
 >
   <Typography
     variant="body1"
-    sx={{ color: "#7B89A8", fontWeight: "bold", mb: 2 }}
+    sx={{ color: "white", fontWeight: "bold", mb: 2 }}
   >
     SOCIAL
   </Typography>
 
   <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-    <GitHubIcon sx={{ mr: 2, color: "white" }} />
+    <GitHubIcon sx={{ mr: 2, color: "white" }} href=""/>
     <Typography variant="body2" sx={{ color: "white", my: 1 }}>
       GitHub
     </Typography>
@@ -86,7 +87,7 @@ const Footer = () => {
 
   <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
     <LinkedInIcon sx={{ mr: 2, color: "white" }} />
-    <Typography variant="body2" sx={{ color: "white", my: 1 }}>
+    <Typography variant="body2" sx={{ color: "white", my: 1 }} >
       LinkedIn
     </Typography>
   </Box>
